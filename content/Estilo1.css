@@ -1,0 +1,179 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+/*
+Created on : 23/08/2024
+Author : Dulce Orellana
+
+*/
+
+/* Cuerpo del sitio web (body) */
+
+body {
+    clear: both;
+    /* Borra el valor flotante
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss Js clear */
+    margin: 50px auto;
+    width: 80%;
+    text-align: left;
+    background-color: #EEE;
+    /* Establece el color de fondo en gris claro */
+}
+
+/* Área de contenido principal - Artículos y barras laterales */
+
+.Main {
+    background-color: #FFF;
+    /* Sets background color to White */
+    border-radius: 5px;
+    overflow: hidden;
+    line-height: 30px;
+}
+
+/* Contenido del artículo */
+.content {
+
+    padding-left: 2%;
+}
+
+/* Bar Navavigation */
+
+.pageHeader nav {
+    background: #2BA6CB;
+    /* Establece fondo azul claro */
+    height: 40px;
+    /* Establece la altura en 40px, de lo contrario, la barra de navegación se
+verá como una línea */
+    line-height: 30px;
+    /* Hace que los enlaces aparezcan en el medio */
+    margin: 0 auto 30px auto;
+    text-align: center;
+    border-radius: 5px;
+    /* Esquina redondeada */
+    -moz-border-radius: 5px;
+    /* Para los navegadores Mozilla, la misma esquina redondeada */
+    -webkit-border-radius: 5px;
+    /* Para Safari, misma esquina redondeada */
+
+}
+
+.pageHeader nav ul {
+    margin: 0 auto;
+
+}
+
+/* Styles para Links */
+
+.pageHeader nav ul li {
+    float: left;
+    display: inline;
+    /* Hace que los enlaces se muestren horizontalmente */
+
+}
+
+.pageHeader nav a:link,
+.pageHeader nav a:visited {
+    color: #fff;
+    /* Establece el color de los enlaces a blanco */
+    display: inline-block;
+    /* Hace que los enlaces se muestren como bloques */
+    height: 30px;
+    padding: 5px 23px;
+    /* Establece espacio entre enlaces */
+    text-decoration: none;
+
+}
+
+.pageHeader nav a:hover,
+.pageHeader nav a:active,
+
+.pageHeader nav .active a:link,
+.pageHeader nav .active a:visited {
+    background: #2795B6;
+    /* Cambia el color de fondo a azul oscuro */
+    color: #fff;
+
+}
+
+/* Main Content */
+
+.Main {
+    overflow: hidden;
+    line-height: 30px;
+}
+
+.Top {
+    margin-bottom: 3%;
+}
+
+
+.content {
+    width: 70%;
+    float: left;
+}
+
+/* Side-bar Navigation */
+.top-sidebar {
+    /* Estilo aplicado a la barra lateral */
+    width: 20%;
+    float: left;
+    margin-left: 2%;
+    padding: 2% 3%;
+    margin-bottom: 2%;
+}
+
+.navigation {
+    /* Estilo aplicado a la lista de navegación */
+    display: block;
+    list-style-position: inside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0.875em 0;
+}
+
+/* Featured Panel */
+.bottom-sidebar {
+    /* Estilo aplicado a la barra lateral */
+    width: 20%;
+    float: left;
+    margin-left: 2%;
+    padding: 2% 3%;
+}
+
+
+.featured {
+    /* Estilo aplicado al panel presentado */
+    background: none repeat scroll 0 0 #F2F2F2;
+    border-color: #D9D9D9;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 1.25em;
+    padding: 1.25em;
+}
+
+/* Footer */
+
+/* Los estilos son en su mayoría iguales a pageHeader */
+.pageFooter {
+    /* Estilo aplicado a la barra de pie de página */
+    width: 100%;
+    height: 40px;
+    line-height: 5px;
+    float: left;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #2BA6CB;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #FFF;
+}
+
+.pageFooter p {
+    /* Estilo aplicado al contenido dentro de la barra de pie de página */
+    width: 90%;
+    margin: 2% auto;
+}
